@@ -49,10 +49,10 @@ Minimal js scrolling module.
 	$(element).scrollTo(false);
 	
 	
-	//With a specific offset and the default duration. E.g. if you have an header with an height of 300px.
-	$.scrollTo(element, null, 300);
+	//With a specific offset and the default duration. E.g. if you have an header with a height of 200px.
+	$.scrollTo(element, null, 200);
 	//OR
-	$(element).scrollTo(null, 300);
+	$(element).scrollTo(null, 200);
 	
 ### Calling a function after the scrolling has finished.
 
