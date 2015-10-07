@@ -1,0 +1,26 @@
+{
+  "name": "b_scrollTo",
+  "description": "Minimal jquery scrolling module.",
+  "homepage": "https://github.com/b13/b_scrollTo",
+  "keywords": ["scroll", "navigate", "javascript"],
+  "main": [
+    "dist/b_scrollTo.min.js"
+  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  "authors": [
+    {"name": "Benjamin Gröner", "email": "groener@b13.de"}
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/b13/b_scrollTo.git"
+  },
+  "dependencies": {
+    "jquery": ">= 1.11.2"
+  },
+  "ignore": [
+    "./gulpfile.js",
+    "package.json"
+  ],
+  "devDependencies": {}
+}

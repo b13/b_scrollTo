@@ -1,0 +1,33 @@
+{
+  "name": "b_scrollTo",
+  "description": "Minimal scrolling js module.",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.10.36"
+  },
+  "scripts": {},
+  "author": {
+    "name": "Benjamin Gröner",
+    "email": "benjamin.groener@b13.de",
+    "url": "b13.de"
+  },
+  "company": {
+    "name": "b:dreizehn",
+    "street": "Breitscheitstraße 65",
+    "zip": "70176",
+    "city": "Stuttgart",
+    "mail": "info@b13.de"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org"
+    }
+  ],
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1"
+  }
+}
