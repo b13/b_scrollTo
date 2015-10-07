@@ -1,19 +1,19 @@
 # b_scrollTo
 Minimal js scrolling module.
 
-## Installation via bower
+## Installation via bower.
 	 bower install b_scrollTo -S
 
 ## Usage
 
-### Use it as AMD module
+### Use it as AMD module.
 
 	//Scroll to window y-position of 300px.
 	require(['b_scrollTo']){
 		$.scrollToPixel(300);
 	};
 
-### Scroll the window to a defined pixel height
+### Scroll the window to a defined pixel height.
 
 	//With default animation duration of 500ms.
 	$.scrollToPixel(100);
@@ -27,7 +27,7 @@ Minimal js scrolling module.
 	$.scrollToPixel(100, false);
 	
 	
-### Scroll to the top edge of an element
+### Scroll to the top edge of an element.
 
 	$.scrollTo(element);
 	//OR
@@ -54,7 +54,7 @@ Minimal js scrolling module.
 	//OR
 	$(element).scrollTo(null, 300);
 	
-### Reacting calling a function after the scrolling has finished.
+### Calling a function after the scrolling has finished.
 
 	$.scrollToPixel(400).done(function(){
 		//Do something . . .
